@@ -3,8 +3,7 @@ import Header from './Header';
 import './AddSubscriber.css';
 import { Link } from 'react-router-dom';
 
-class AddSusbscriber extends Component {
-    
+class AddSusbscriber extends Component {    
     constructor() {
         super();
         this.state = {
@@ -13,6 +12,7 @@ class AddSusbscriber extends Component {
             phone: ''
         }
     }
+    
 
     inputChangedHandler = (e) => {
         const state = this.state;
